@@ -7,14 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		186BA4925066783993E56691 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C9AFAD11D1D1A9F15602AB /* libPods.a */; };
+		F746842E1ABDFB6A00B11003 /* TelaInicialCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F746842C1ABDFB6A00B11003 /* TelaInicialCell.m */; };
+		F746842F1ABDFB6A00B11003 /* TelaInicialCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F746842D1ABDFB6A00B11003 /* TelaInicialCell.xib */; };
+		F79679461ABE1C2C00500EA2 /* foto13.png in Resources */ = {isa = PBXBuildFile; fileRef = F79679391ABE1C2C00500EA2 /* foto13.png */; };
+		F79679471ABE1C2C00500EA2 /* foto12.png in Resources */ = {isa = PBXBuildFile; fileRef = F796793A1ABE1C2C00500EA2 /* foto12.png */; };
+		F79679481ABE1C2C00500EA2 /* foto1.png in Resources */ = {isa = PBXBuildFile; fileRef = F796793B1ABE1C2C00500EA2 /* foto1.png */; };
+		F79679491ABE1C2C00500EA2 /* foto2.png in Resources */ = {isa = PBXBuildFile; fileRef = F796793C1ABE1C2C00500EA2 /* foto2.png */; };
+		F796794A1ABE1C2C00500EA2 /* foto3.png in Resources */ = {isa = PBXBuildFile; fileRef = F796793D1ABE1C2C00500EA2 /* foto3.png */; };
+		F796794B1ABE1C2C00500EA2 /* foto4.png in Resources */ = {isa = PBXBuildFile; fileRef = F796793E1ABE1C2C00500EA2 /* foto4.png */; };
+		F796794C1ABE1C2C00500EA2 /* foto5.png in Resources */ = {isa = PBXBuildFile; fileRef = F796793F1ABE1C2C00500EA2 /* foto5.png */; };
+		F796794D1ABE1C2C00500EA2 /* foto6.png in Resources */ = {isa = PBXBuildFile; fileRef = F79679401ABE1C2C00500EA2 /* foto6.png */; };
+		F796794E1ABE1C2C00500EA2 /* foto7.png in Resources */ = {isa = PBXBuildFile; fileRef = F79679411ABE1C2C00500EA2 /* foto7.png */; };
+		F796794F1ABE1C2C00500EA2 /* foto8.png in Resources */ = {isa = PBXBuildFile; fileRef = F79679421ABE1C2C00500EA2 /* foto8.png */; };
+		F79679501ABE1C2C00500EA2 /* foto9.png in Resources */ = {isa = PBXBuildFile; fileRef = F79679431ABE1C2C00500EA2 /* foto9.png */; };
+		F79679511ABE1C2C00500EA2 /* foto10.png in Resources */ = {isa = PBXBuildFile; fileRef = F79679441ABE1C2C00500EA2 /* foto10.png */; };
+		F79679521ABE1C2C00500EA2 /* foto11.png in Resources */ = {isa = PBXBuildFile; fileRef = F79679451ABE1C2C00500EA2 /* foto11.png */; };
 		F79DB8961ABDA7A100473472 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F79DB8951ABDA7A100473472 /* main.m */; };
 		F79DB8991ABDA7A100473472 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F79DB8981ABDA7A100473472 /* AppDelegate.m */; };
-		F79DB89C1ABDA7A100473472 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F79DB89B1ABDA7A100473472 /* FirstViewController.m */; };
-		F79DB89F1ABDA7A100473472 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F79DB89E1ABDA7A100473472 /* SecondViewController.m */; };
+		F79DB89C1ABDA7A100473472 /* TelaInicialController.m in Sources */ = {isa = PBXBuildFile; fileRef = F79DB89B1ABDA7A100473472 /* TelaInicialController.m */; };
+		F79DB89F1ABDA7A100473472 /* TelaAlunosController.m in Sources */ = {isa = PBXBuildFile; fileRef = F79DB89E1ABDA7A100473472 /* TelaAlunosController.m */; };
 		F79DB8A21ABDA7A100473472 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F79DB8A01ABDA7A100473472 /* Main.storyboard */; };
 		F79DB8A41ABDA7A100473472 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F79DB8A31ABDA7A100473472 /* Images.xcassets */; };
 		F79DB8A71ABDA7A100473472 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F79DB8A51ABDA7A100473472 /* LaunchScreen.xib */; };
 		F79DB8B31ABDA7A100473472 /* Gatopolis_Dashboard_IpadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F79DB8B21ABDA7A100473472 /* Gatopolis_Dashboard_IpadTests.m */; };
+		F79DB8C31ABDA98400473472 /* TelaAlunosView.m in Sources */ = {isa = PBXBuildFile; fileRef = F79DB8C21ABDA98400473472 /* TelaAlunosView.m */; };
+		F79DB8C51ABDA9AA00473472 /* TelaAlunosView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F79DB8C41ABDA9AA00473472 /* TelaAlunosView.xib */; };
+		F79DB8CA1ABDAA0E00473472 /* TelaAlunosCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F79DB8C81ABDAA0E00473472 /* TelaAlunosCell.m */; };
+		F79DB8CB1ABDAA0E00473472 /* TelaAlunosCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F79DB8C91ABDAA0E00473472 /* TelaAlunosCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,21 +48,46 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		382284D807C1F672739D4DD6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A8C9AFAD11D1D1A9F15602AB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2ECA62C0C5535E8F69431D8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F746842B1ABDFB6A00B11003 /* TelaInicialCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TelaInicialCell.h; sourceTree = "<group>"; };
+		F746842C1ABDFB6A00B11003 /* TelaInicialCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TelaInicialCell.m; sourceTree = "<group>"; };
+		F746842D1ABDFB6A00B11003 /* TelaInicialCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TelaInicialCell.xib; sourceTree = "<group>"; };
+		F79679391ABE1C2C00500EA2 /* foto13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = foto13.png; path = ../../../Downloads/foto13.png; sourceTree = "<group>"; };
+		F796793A1ABE1C2C00500EA2 /* foto12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = foto12.png; path = ../../../Downloads/foto12.png; sourceTree = "<group>"; };
+		F796793B1ABE1C2C00500EA2 /* foto1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = foto1.png; path = ../../../Downloads/foto1.png; sourceTree = "<group>"; };
+		F796793C1ABE1C2C00500EA2 /* foto2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = foto2.png; path = ../../../Downloads/foto2.png; sourceTree = "<group>"; };
+		F796793D1ABE1C2C00500EA2 /* foto3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = foto3.png; path = ../../../Downloads/foto3.png; sourceTree = "<group>"; };
+		F796793E1ABE1C2C00500EA2 /* foto4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = foto4.png; path = ../../../Downloads/foto4.png; sourceTree = "<group>"; };
+		F796793F1ABE1C2C00500EA2 /* foto5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = foto5.png; path = ../../../Downloads/foto5.png; sourceTree = "<group>"; };
+		F79679401ABE1C2C00500EA2 /* foto6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = foto6.png; path = ../../../Downloads/foto6.png; sourceTree = "<group>"; };
+		F79679411ABE1C2C00500EA2 /* foto7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = foto7.png; path = ../../../Downloads/foto7.png; sourceTree = "<group>"; };
+		F79679421ABE1C2C00500EA2 /* foto8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = foto8.png; path = ../../../Downloads/foto8.png; sourceTree = "<group>"; };
+		F79679431ABE1C2C00500EA2 /* foto9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = foto9.png; path = ../../../Downloads/foto9.png; sourceTree = "<group>"; };
+		F79679441ABE1C2C00500EA2 /* foto10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = foto10.png; path = ../../../Downloads/foto10.png; sourceTree = "<group>"; };
+		F79679451ABE1C2C00500EA2 /* foto11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = foto11.png; path = ../../../Downloads/foto11.png; sourceTree = "<group>"; };
 		F79DB8901ABDA7A100473472 /* Gatopolis-Dashboard-Ipad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gatopolis-Dashboard-Ipad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F79DB8941ABDA7A100473472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F79DB8951ABDA7A100473472 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F79DB8971ABDA7A100473472 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F79DB8981ABDA7A100473472 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F79DB89A1ABDA7A100473472 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		F79DB89B1ABDA7A100473472 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		F79DB89D1ABDA7A100473472 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		F79DB89E1ABDA7A100473472 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		F79DB89A1ABDA7A100473472 /* TelaInicialController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TelaInicialController.h; sourceTree = "<group>"; };
+		F79DB89B1ABDA7A100473472 /* TelaInicialController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TelaInicialController.m; sourceTree = "<group>"; };
+		F79DB89D1ABDA7A100473472 /* TelaAlunosController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TelaAlunosController.h; sourceTree = "<group>"; };
+		F79DB89E1ABDA7A100473472 /* TelaAlunosController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TelaAlunosController.m; sourceTree = "<group>"; };
 		F79DB8A11ABDA7A100473472 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F79DB8A31ABDA7A100473472 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F79DB8A61ABDA7A100473472 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F79DB8AC1ABDA7A100473472 /* Gatopolis-Dashboard-IpadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gatopolis-Dashboard-IpadTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F79DB8B11ABDA7A100473472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F79DB8B21ABDA7A100473472 /* Gatopolis_Dashboard_IpadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gatopolis_Dashboard_IpadTests.m; sourceTree = "<group>"; };
+		F79DB8C11ABDA98400473472 /* TelaAlunosView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TelaAlunosView.h; sourceTree = "<group>"; };
+		F79DB8C21ABDA98400473472 /* TelaAlunosView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TelaAlunosView.m; sourceTree = "<group>"; };
+		F79DB8C41ABDA9AA00473472 /* TelaAlunosView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TelaAlunosView.xib; sourceTree = "<group>"; };
+		F79DB8C71ABDAA0E00473472 /* TelaAlunosCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TelaAlunosCell.h; sourceTree = "<group>"; };
+		F79DB8C81ABDAA0E00473472 /* TelaAlunosCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TelaAlunosCell.m; sourceTree = "<group>"; };
+		F79DB8C91ABDAA0E00473472 /* TelaAlunosCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TelaAlunosCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				186BA4925066783993E56691 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,12 +109,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22810DC69654CE09BA938216 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8C9AFAD11D1D1A9F15602AB /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74CD9EE8605627A4CA3EECB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				382284D807C1F672739D4DD6 /* Pods.debug.xcconfig */,
+				E2ECA62C0C5535E8F69431D8 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F79679381ABE1C0200500EA2 /* Fotos */ = {
+			isa = PBXGroup;
+			children = (
+				F79679391ABE1C2C00500EA2 /* foto13.png */,
+				F796793A1ABE1C2C00500EA2 /* foto12.png */,
+				F796793B1ABE1C2C00500EA2 /* foto1.png */,
+				F796793C1ABE1C2C00500EA2 /* foto2.png */,
+				F796793D1ABE1C2C00500EA2 /* foto3.png */,
+				F796793E1ABE1C2C00500EA2 /* foto4.png */,
+				F796793F1ABE1C2C00500EA2 /* foto5.png */,
+				F79679401ABE1C2C00500EA2 /* foto6.png */,
+				F79679411ABE1C2C00500EA2 /* foto7.png */,
+				F79679421ABE1C2C00500EA2 /* foto8.png */,
+				F79679431ABE1C2C00500EA2 /* foto9.png */,
+				F79679441ABE1C2C00500EA2 /* foto10.png */,
+				F79679451ABE1C2C00500EA2 /* foto11.png */,
+			);
+			name = Fotos;
+			sourceTree = "<group>";
+		};
 		F79DB8871ABDA7A100473472 = {
 			isa = PBXGroup;
 			children = (
 				F79DB8921ABDA7A100473472 /* Gatopolis-Dashboard-Ipad */,
 				F79DB8AF1ABDA7A100473472 /* Gatopolis-Dashboard-IpadTests */,
 				F79DB8911ABDA7A100473472 /* Products */,
+				74CD9EE8605627A4CA3EECB1 /* Pods */,
+				22810DC69654CE09BA938216 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,12 +169,12 @@
 		F79DB8921ABDA7A100473472 /* Gatopolis-Dashboard-Ipad */ = {
 			isa = PBXGroup;
 			children = (
+				F79679381ABE1C0200500EA2 /* Fotos */,
+				F79DB8BE1ABDA8F100473472 /* Controller */,
+				F79DB8BD1ABDA8E400473472 /* View */,
+				F79DB8BC1ABDA8D200473472 /* Model */,
 				F79DB8971ABDA7A100473472 /* AppDelegate.h */,
 				F79DB8981ABDA7A100473472 /* AppDelegate.m */,
-				F79DB89A1ABDA7A100473472 /* FirstViewController.h */,
-				F79DB89B1ABDA7A100473472 /* FirstViewController.m */,
-				F79DB89D1ABDA7A100473472 /* SecondViewController.h */,
-				F79DB89E1ABDA7A100473472 /* SecondViewController.m */,
 				F79DB8A01ABDA7A100473472 /* Main.storyboard */,
 				F79DB8A31ABDA7A100473472 /* Images.xcassets */,
 				F79DB8A51ABDA7A100473472 /* LaunchScreen.xib */,
@@ -124,6 +209,64 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F79DB8BC1ABDA8D200473472 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F79DB8BD1ABDA8E400473472 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F79DB8BE1ABDA8F100473472 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F79DB8C01ABDA93400473472 /* ListaAlunos */,
+				F79DB8BF1ABDA92000473472 /* TelaInicial */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F79DB8BF1ABDA92000473472 /* TelaInicial */ = {
+			isa = PBXGroup;
+			children = (
+				F79DB89A1ABDA7A100473472 /* TelaInicialController.h */,
+				F79DB89B1ABDA7A100473472 /* TelaInicialController.m */,
+				F746842B1ABDFB6A00B11003 /* TelaInicialCell.h */,
+				F746842C1ABDFB6A00B11003 /* TelaInicialCell.m */,
+				F746842D1ABDFB6A00B11003 /* TelaInicialCell.xib */,
+			);
+			name = TelaInicial;
+			sourceTree = "<group>";
+		};
+		F79DB8C01ABDA93400473472 /* ListaAlunos */ = {
+			isa = PBXGroup;
+			children = (
+				F79DB8C61ABDA9D600473472 /* CelulasAlunos */,
+				F79DB89D1ABDA7A100473472 /* TelaAlunosController.h */,
+				F79DB89E1ABDA7A100473472 /* TelaAlunosController.m */,
+				F79DB8C11ABDA98400473472 /* TelaAlunosView.h */,
+				F79DB8C21ABDA98400473472 /* TelaAlunosView.m */,
+				F79DB8C41ABDA9AA00473472 /* TelaAlunosView.xib */,
+			);
+			name = ListaAlunos;
+			sourceTree = "<group>";
+		};
+		F79DB8C61ABDA9D600473472 /* CelulasAlunos */ = {
+			isa = PBXGroup;
+			children = (
+				F79DB8C71ABDAA0E00473472 /* TelaAlunosCell.h */,
+				F79DB8C81ABDAA0E00473472 /* TelaAlunosCell.m */,
+				F79DB8C91ABDAA0E00473472 /* TelaAlunosCell.xib */,
+			);
+			name = CelulasAlunos;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,9 +274,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F79DB8B61ABDA7A100473472 /* Build configuration list for PBXNativeTarget "Gatopolis-Dashboard-Ipad" */;
 			buildPhases = (
+				7D1412AEF01D8196C681EBC9 /* Check Pods Manifest.lock */,
 				F79DB88C1ABDA7A100473472 /* Sources */,
 				F79DB88D1ABDA7A100473472 /* Frameworks */,
 				F79DB88E1ABDA7A100473472 /* Resources */,
+				538DD13DF0D7377759BEB36B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -169,7 +314,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0620;
-				ORGANIZATIONNAME = "Ezequiel França";
+				ORGANIZATIONNAME = "Ezequiel Fran&#231;a";
 				TargetAttributes = {
 					F79DB88F1ABDA7A100473472 = {
 						CreatedOnToolsVersion = 6.2;
@@ -204,9 +349,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F796794B1ABE1C2C00500EA2 /* foto4.png in Resources */,
+				F796794C1ABE1C2C00500EA2 /* foto5.png in Resources */,
+				F79679471ABE1C2C00500EA2 /* foto12.png in Resources */,
 				F79DB8A21ABDA7A100473472 /* Main.storyboard in Resources */,
 				F79DB8A71ABDA7A100473472 /* LaunchScreen.xib in Resources */,
+				F79679481ABE1C2C00500EA2 /* foto1.png in Resources */,
+				F796794E1ABE1C2C00500EA2 /* foto7.png in Resources */,
+				F79DB8C51ABDA9AA00473472 /* TelaAlunosView.xib in Resources */,
+				F796794A1ABE1C2C00500EA2 /* foto3.png in Resources */,
+				F79679521ABE1C2C00500EA2 /* foto11.png in Resources */,
+				F796794D1ABE1C2C00500EA2 /* foto6.png in Resources */,
+				F79679501ABE1C2C00500EA2 /* foto9.png in Resources */,
 				F79DB8A41ABDA7A100473472 /* Images.xcassets in Resources */,
+				F79679511ABE1C2C00500EA2 /* foto10.png in Resources */,
+				F79679491ABE1C2C00500EA2 /* foto2.png in Resources */,
+				F796794F1ABE1C2C00500EA2 /* foto8.png in Resources */,
+				F79DB8CB1ABDAA0E00473472 /* TelaAlunosCell.xib in Resources */,
+				F746842F1ABDFB6A00B11003 /* TelaInicialCell.xib in Resources */,
+				F79679461ABE1C2C00500EA2 /* foto13.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,14 +380,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		538DD13DF0D7377759BEB36B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D1412AEF01D8196C681EBC9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F79DB88C1ABDA7A100473472 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F79DB89F1ABDA7A100473472 /* SecondViewController.m in Sources */,
+				F79DB8C31ABDA98400473472 /* TelaAlunosView.m in Sources */,
+				F79DB8CA1ABDAA0E00473472 /* TelaAlunosCell.m in Sources */,
+				F79DB89F1ABDA7A100473472 /* TelaAlunosController.m in Sources */,
 				F79DB8991ABDA7A100473472 /* AppDelegate.m in Sources */,
-				F79DB89C1ABDA7A100473472 /* FirstViewController.m in Sources */,
+				F79DB89C1ABDA7A100473472 /* TelaInicialController.m in Sources */,
+				F746842E1ABDFB6A00B11003 /* TelaInicialCell.m in Sources */,
 				F79DB8961ABDA7A100473472 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,6 +546,7 @@
 		};
 		F79DB8B71ABDA7A100473472 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 382284D807C1F672739D4DD6 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Gatopolis-Dashboard-Ipad/Info.plist";
@@ -359,6 +557,7 @@
 		};
 		F79DB8B81ABDA7A100473472 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2ECA62C0C5535E8F69431D8 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Gatopolis-Dashboard-Ipad/Info.plist";
@@ -420,6 +619,7 @@
 				F79DB8B81ABDA7A100473472 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F79DB8B91ABDA7A100473472 /* Build configuration list for PBXNativeTarget "Gatopolis-Dashboard-IpadTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +628,7 @@
 				F79DB8BB1ABDA7A100473472 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

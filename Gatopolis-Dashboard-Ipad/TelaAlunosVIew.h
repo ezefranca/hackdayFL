@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  TelaAlunosVIew.h
 //  Gatopolis-Dashboard-Ipad
 //
 //  Created by Ezequiel on 21/03/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
-
+@interface TelaAlunosView : UIView
 
 @end
-

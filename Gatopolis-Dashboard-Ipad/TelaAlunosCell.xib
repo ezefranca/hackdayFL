@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TelaAlunosController"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="TelaAlunosCell" selectionStyle="default" indentationWidth="10" rowHeight="110" id="KGk-i7-Jjw" customClass="TelaAlunosCell">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="109"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="768" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="placeholder_kid" translatesAutoresizingMaskIntoConstraints="NO" id="j2p-m6-ehc">
+                        <rect key="frame" x="40" y="15" width="83" height="77.5"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="João Pedro Santos" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tSh-mO-tHa">
+                        <rect key="frame" x="174" y="15" width="393" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="seta_table" translatesAutoresizingMaskIntoConstraints="NO" id="3FZ-pf-5w4">
+                        <rect key="frame" x="996" y="44" width="20" height="20"/>
+                    </imageView>
+                    <view alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bhT-ZB-2Ii">
+                        <rect key="frame" x="335" y="15" width="653" height="77.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </subviews>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="fotoAluno" destination="j2p-m6-ehc" id="A62-IZ-Vw5"/>
+                <outlet property="graficoView" destination="bhT-ZB-2Ii" id="HN4-sD-YFe"/>
+                <outlet property="nomeAluno" destination="tSh-mO-tHa" id="fq5-Tc-IUc"/>
+            </connections>
+            <point key="canvasLocation" x="479" y="356.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="placeholder_kid" width="500" height="500"/>
+        <image name="seta_table" width="10" height="16"/>
+    </resources>
+</document>
